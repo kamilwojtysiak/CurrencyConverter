@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 
 namespace CurrencyConverter_2
+=======
+﻿namespace CurrencyConverter_2
+>>>>>>> 27bd8de2deab9322e4e7fb2c6945d924455af0fd
 {
     class Program
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             List<Currency> currencies = new List<Currency>();
 
             currencies.Add(new Currency(0.2255, '€', "EUR"));
@@ -32,6 +37,39 @@ namespace CurrencyConverter_2
             CurrencyConverter converter = new CurrencyConverter();
 
             converter.ConvertTo(currencies[number - 1]);
+=======
+            Console.WriteLine("Wybierz walutę, na którą zostanie przeliczona kwota w PLN: ");
+            Console.WriteLine("1.EUR \n2.USD \n3.GBP");
+            Console.Write("Podaj liczbe przypisaną walucie: ");
+
+            int number = int.Parse(Console.ReadLine());
+
+            if (number == 1)
+            {
+                Currency eur = new Currency(0.2255, '€', "PLN");
+
+                CurrencyConverter converter = new CurrencyConverter();
+                converter.ConvertTo(eur);
+            }
+            else if (number == 2)
+            {
+                Currency usd = new Currency(0.2527, '$', "PLN");
+
+                CurrencyConverter converter = new CurrencyConverter();
+                converter.ConvertTo(usd);
+            }
+            else if (number == 3)
+            {
+                Currency gbp = new Currency(0.2019, '£', "PLN");
+
+                CurrencyConverter converter = new CurrencyConverter();
+                converter.ConvertTo(gbp);
+            }
+            else
+            {
+                Console.WriteLine("Błędnie wprowadzona liczba.");
+            }
+>>>>>>> 27bd8de2deab9322e4e7fb2c6945d924455af0fd
         }
     }
 
@@ -58,7 +96,11 @@ namespace CurrencyConverter_2
             double amount = double.Parse(Console.ReadLine());
             double convertedAmount = amount * currency.Rate;
 
+<<<<<<< HEAD
             Console.WriteLine($"{amount}PLN = {Math.Round(convertedAmount, 2)}{currency.Symbol}");
+=======
+            Console.WriteLine($"{amount}{currency.Name} = {Math.Round(convertedAmount, 2)}{currency.Symbol}");
+>>>>>>> 27bd8de2deab9322e4e7fb2c6945d924455af0fd
         }
     }
 }
