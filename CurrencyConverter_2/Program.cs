@@ -7,7 +7,7 @@ namespace CurrencyConverter_2
         static void Main(string[] args)
         {
 
-            Currency EUR = new Currency(0.2255, '$', "PLN");
+            Currency EUR = new Currency(0.2255, '€', "PLN");
             Currency USD = new Currency(0.2527, '$', "PLN");
 
             CurrencyConverter newConverter = new CurrencyConverter();
