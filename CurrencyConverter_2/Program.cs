@@ -6,8 +6,8 @@ namespace CurrencyConverter_2
     {
         static void Main(string[] args)
         {
-            Currency EUR = new Currency(2321.3, '$', "EUR");
-            Currency USD = new Currency(123.3, '$', "USD");
+            Currency EUR = new Currency(0.2255, '$', "PLN");
+            Currency USD = new Currency(0.2527, '$', "PLN");
 
             CurrencyConverter newConverter = new CurrencyConverter();
             newConverter.Converter(EUR);
@@ -17,14 +17,14 @@ namespace CurrencyConverter_2
     public class Currency
     {
         public double Rate { get; set; }
-        public char CurrencySymbol { get; set; }
-        public string CurrencyName { get; set; }
+        public char ExpectedCurrencySymbol { get; set; }
+        public string ConvertedCurrencyName { get; set; }
 
-        public Currency(double rate, char currencySymbol, string currencyName)
+        public Currency(double rate, char expectedCurrencySymbol, string convertedCurrencyName)
         {
             this.Rate = rate;
-            this.CurrencySymbol = currencySymbol;
-            this.CurrencyName = currencyName;
+            this.ExpectedCurrencySymbol = expectedCurrencySymbol;
+            this.ConvertedCurrencyName = convertedCurrencyName;
         }
     }
     public class CurrencyConverter
@@ -34,7 +34,7 @@ namespace CurrencyConverter_2
             Console.Write("Wprowadź kwotę do przeliczenia: ");
             double givenNumber = double.Parse(Console.ReadLine());
             double result = givenNumber * currency.Rate;
-            Console.WriteLine($"{givenNumber}{currency.CurrencyName} = {Math.Round(result, 2)}{currency.CurrencySymbol}");
+            Console.WriteLine($"{givenNumber}{currency.ConvertedCurrencyName} = {Math.Round(result, 2)}{currency.ExpectedCurrencySymbol}");
         }
     }
 }

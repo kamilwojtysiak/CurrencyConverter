@@ -1,0 +1,11 @@
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\bin\Debug\netcoreapp3.1\CurrencyConverter_2.exe
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\bin\Debug\netcoreapp3.1\CurrencyConverter_2.deps.json
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\bin\Debug\netcoreapp3.1\CurrencyConverter_2.runtimeconfig.json
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\bin\Debug\netcoreapp3.1\CurrencyConverter_2.runtimeconfig.dev.json
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\bin\Debug\netcoreapp3.1\CurrencyConverter_2.dll
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\bin\Debug\netcoreapp3.1\CurrencyConverter_2.pdb
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\obj\Debug\netcoreapp3.1\CurrencyConverter_2.csprojAssemblyReference.cache
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\obj\Debug\netcoreapp3.1\CurrencyConverter_2.AssemblyInfoInputs.cache
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\obj\Debug\netcoreapp3.1\CurrencyConverter_2.AssemblyInfo.cs
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\obj\Debug\netcoreapp3.1\CurrencyConverter_2.dll
+E:\Projekty\zadanka\CurrencyConverter_2\CurrencyConverter_2\obj\Debug\netcoreapp3.1\CurrencyConverter_2.pdb
