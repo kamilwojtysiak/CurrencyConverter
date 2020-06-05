@@ -6,8 +6,8 @@ namespace CurrencyConverter_2
     {
         static void Main(string[] args)
         {
-            Currency EUR = new Currency(2321.3, '$', "EUR");
-            Currency USD = new Currency(123.3, '$', "USD");
+            Currency EUR = new Currency(0,2255, '€', "EUR");
+            Currency USD = new Currency(0,2527, '$', "USD");
 
             CurrencyConverter newConverter = new CurrencyConverter();
             newConverter.Converter(EUR);
